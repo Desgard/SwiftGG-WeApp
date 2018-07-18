@@ -1,1 +1,5 @@
 project.config.json
+.vscode/
+.vscode
+typings/
+typings
