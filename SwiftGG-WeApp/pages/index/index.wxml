@@ -5,6 +5,13 @@
         <view class="feed-motto-text">{{ motto }}</view>
     </view>
     <view class="feed-body">
-        
+        <view class="feed-list-item">
+            <view class="feed-list-item-title-area">
+                <view class="feed-list-item-title-text"> {{ title }} </view>
+            </view>
+            <view class="feed-list-item-info-area">
+                <view class="feed-list-item-info-text"> {{ author }} </view>
+            </view>
+        </view>
     </view>
 </view>
