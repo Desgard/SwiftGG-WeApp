@@ -4,9 +4,9 @@ const app = getApp()
 
 Page({
     data: {
-        motto: 'SwiftGG, 最走心的翻译组',
-        title: '这是一个标题',
-        author: '作者: 冬瓜',
+        motto: '更新中',
+        title: '欢迎来到 SwiftGG 翻译组，这里每周都有优质翻译文章等你来看',
+        author: 'author: 冬瓜',
     },
     //事件处理函数
     bindViewTap: function () {
@@ -20,12 +20,7 @@ Page({
     onShow: function() {
         console.log("onShow");
     },
-    getUserInfo: function (e) {
-        console.log(e)
-        app.globalData.userInfo = e.detail.userInfo
-        this.setData({
-            userInfo: e.detail.userInfo,
-            hasUserInfo: true
-        })
-    }
+    onPullDownRefresh: function() {
+        console.log("onPulldownrefresh");
+    },
 })
