@@ -1,0 +1,4 @@
+<view class="container">
+    <web-view src="https://mp.weixin.qq.com/s?__biz=MzI4NjAzODk0OQ==&mid=2652685447&idx=1&sn=146503d1b1e34e03df30cedac339371e&chksm=f00b6a4dc77ce35be5c87d976cc193c1e4e3f16f51add497c6a7336c71fb8f0e535b08041f56&mpshare=1&scene=1&srcid=0718XzaNMivT94tYJYbfoKdx&key=347200de36fedf619386e9ddafa0fef5c68bde5fb969de50e7f844ab56893d615b77f8240ae0d926d9711dedf432bd943745463b1ba616a3db6ccb92b18fe31c88772c071358eb378ffd30badbba3fa5&ascene=0&uin=MTY5NjE1MzAzNg%3D%3D&devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.13.5+build(17F77)&version=12010110&nettype=WIFI&lang=zh_CN&fontScale=100&pass_ticket=SMqpXUsnb3glphGvSu9wgmvwQ2sIQWrnA5bUc0%2Bq5Gf64BSTAMWszPZttqU86gdA">
+    </web-view>
+</view>

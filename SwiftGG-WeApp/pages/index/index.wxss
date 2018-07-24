@@ -1,21 +1,60 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+.post-scroll {
+    height: 100%;
+    width: 100%;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+
+.feed-head {
+    padding: 25rpx;
+    text-align: center;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.feed-body {
+    background-color: white;
+    padding: 25rpx;
 }
 
-.usermotto {
-  margin-top: 200px;
+.feed-list {
+    display: block;
+}
+
+.feed-list-item {
+    background-color: #fffefc;
+    margin: 45rpx 0;
+    border-radius: 10rpx;
+    overflow: hidden;
+    border: 0.5rpx solid rgba(13, 25, 40, 0.1);
+    box-shadow: 0 8rpx 20rpx 0 rgba(44, 57, 75, 0.1);
+}
+
+/* 标题区域 */
+.feed-list-item-title-area {
+    padding: 45rpx 30rpx;
+    display: flex;
+    align-items: center;
+    transition: opacity .3s;
+}
+
+/* 作者信息区域 */
+.feed-list-item-info-area {
+    padding: 20rpx 30rpx;
+    display: flex;
+    align-items: center;
+    transition: opacity .3s;
+}
+
+/* 标题字体 */
+.feed-list-item-title-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 36rpx;
+}
+
+/* 作者字体 */
+.feed-list-item-info-text {
+    font-weight: 200;
+    font-size: 24;
+    color: rgba(44, 57, 75, 0.8);
 }
