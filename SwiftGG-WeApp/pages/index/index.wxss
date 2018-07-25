@@ -5,15 +5,17 @@
     width: 100%;
 }
 
-
 .feed-head {
     padding: 25rpx;
     text-align: center;
 }
 
+.feed-motto-text {
+    
+}
+
 .feed-body {
-    background-color: white;
-    padding: 25rpx;
+    padding: 0rpx 25rpx 25rpx 25rpx;
 }
 
 .feed-list {
